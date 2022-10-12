@@ -6,7 +6,7 @@ pipeline {
                 sh 'hii anusha'
             }
         }
-        stage('iearning') {
+        stage('learning') {
             steps {
                 git url: 'https://github.com/MUKKARLAHARISHREDDY/game-of-life.git',
                 branch: 'master'
