@@ -3,13 +3,13 @@ pipeline {
     stages {
         stage('test') {
             steps {
-                sh 'hii anusha'
+                sh 'echo hello'
             }
         }
         stage('learning') {
             steps {
-                git url: 'https://github.com/MUKKARLAHARISHREDDY/game-of-life.git',
-                branch: 'master'
+                git url: 'https://github.com/MUKKARLAHARISHREDDY/game-of-life.git', 
+                    branch: 'master'
             }
         }
     }
