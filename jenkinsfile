@@ -8,7 +8,7 @@ pipeline {
         }
         stage('learning') {
             steps {
-                label { 'OPENJDK-11-JDK' }
+                agent { iabel 'OPENJDK-11-JDK' }
                 git url: 'https://github.com/MUKKARLAHARISHREDDY/game-of-life.git', 
                     branch: 'master'
             }
